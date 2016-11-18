@@ -1,0 +1,69 @@
+ /*black: rgb(40, 44, 45)*/
+
+@font-face {
+    font-family: unicaone;
+    src: url('font/unicaone/UnicaOne-Regular.ttf');
+}
+
+body {
+
+}
+
+ a {
+     font-family: unicaone;
+
+ }
+
+ div {
+    font-family: unicaone;
+ }
+
+@media (max-width: 750px) {
+    /* Removes carret from hamburger icon */
+    a.dropdown-toggle::after {
+        display: none;
+    }
+    /* Colors the hamburger icon */
+    .hamburger-icon {
+        color: rgb(40, 44, 45);
+    }
+
+    /* Removes the underline of the anchor tag and colors it */
+    .dropdown-list li a {
+        text-decoration: none;
+        color: rgb(40, 44, 45);
+
+    }
+
+    /* Sets the background color */
+    .dropdown-list li:hover {
+        background-color: #cf4646;
+        background-image: none;
+    }
+
+    .dropdown-menu .list-box {
+        border: 1px solid black;
+    }
+
+
+    .dropdown-list > li a:hover {
+        text-decoration: none !important;
+        color: ghostwhite;
+    }
+
+    .dropdown-list li p {
+        font-size: 1.5rem;
+        margin-left: 30px;
+        height: 150px;
+        width: 300px;
+    }
+    .dropdown-menu {
+        border:none !important;
+    }
+
+    .menu-title {
+        float: right;
+        margin-top: 15px;
+        margin-right: 45px;
+        font-size: 1.7rem;
+}

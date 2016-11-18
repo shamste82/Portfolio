@@ -23,6 +23,7 @@
     "gulp-gm": "0.0.8"
   },
   "dependencies": {
-    "fullpage.js": "^2.8.8"
+    "fullpage.js": "^2.8.8",
+    "jquery": "^3.1.1"
   }
 }
