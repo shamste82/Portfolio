@@ -23,6 +23,7 @@
     "gulp-gm": "0.0.8"
   },
   "dependencies": {
+    "animate.css": "^3.5.2",
     "fullpage.js": "^2.8.8",
     "jquery": "^3.1.1"
   }
