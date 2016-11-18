@@ -1,13 +1,14 @@
 
 $(document).ready(function() {
-    //timeoutID is used as a delay for animations
+
+
     $('.menu-title').addClass("animated bounceIn");
 
     $('.dropdown').on('show.bs.dropdown', function(e){
         $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
         $('.portfolio-image').addClass('animated bounceOutRight');
         $('.welcome-arrow-down').css('visibility', 'hidden');
-        });
+    });
         //$('.portfolio-image').hide();
 
 
