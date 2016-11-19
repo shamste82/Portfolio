@@ -5,20 +5,39 @@
     src: url('font/unicaone/UnicaOne-Regular.ttf');
 }
 
+@font-face {
+    font-family: vollkorn;
+    src: url('font/vollkorn/Vollkorn-Regular.ttf');
+}
+
+
 body {
+    width: 100%;
 
 }
 
  a {
-     font-family: unicaone;
+     font-family: vollkorn;
 
  }
 
  div {
-    font-family: unicaone;
+    font-family: vollkorn;
  }
 
-@media (max-width: 750px) {
+ h1 {
+     font-family: unicaone;
+     padding:0 0 0 0;
+     margin: 0 0 0 0;
+ }
+
+
+
+ p{
+     font-size: 1.3rem;
+ }
+@media only screen and (max-width: 468px)
+    and (orientation: portrait) {
     /* Removes carret from hamburger icon */
     a.dropdown-toggle::after {
         display: none;
@@ -79,12 +98,110 @@ body {
         margin: auto;
     }
 
-    #portfolio-text {
-        position: absolute;
-        top: 400px;
-        left: 200px;
+
+    .welcome-arrow-down {
+        color: rgb(40, 44, 45);
         width: 100%;
+        display: inline-block;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 0px;
+        visibility: hidden;
     }
+
+     .header-about {
+     margin-left: 250px;
+     margin-top: 80px;
+     margin-bottom: 20px;
+
+
+ }
+
+    .sketch-shb-mob {
+        position: absolute;
+        height: 300px;
+        left: 15%;
+
+
+    }
+    .about-arrow-right {
+        z-index: 1;
+        position: absolute;
+        margin-left: 330px;
+        margin-top: 180px;
+
+    }
+    .about-me-text {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 320px;
+    }
+
+}
+
+ @media only screen and (min-width: 468px)
+    and (orientation: landscape) {
+         a.dropdown-toggle::after {
+        display: none;
+    }
+
+     .hamburger-icon {
+        color: rgb(40, 44, 45);
+    }
+
+     /* Removes the underline of the anchor tag and colors it */
+    .dropdown-list li a {
+        text-decoration: none;
+        color: rgb(40, 44, 45);
+
+    }
+
+    /* Sets the background color */
+    .dropdown-list li:hover {
+        background-color: #cf4646;
+        background-image: none;
+    }
+
+    .dropdown-menu .list-box {
+        border: 1px solid rgb(40, 44, 45);
+    }
+
+
+    .dropdown-list > li a:hover {
+        text-decoration: none !important;
+        color: ghostwhite;
+    }
+
+    .dropdown-list li p {
+        font-size: 1.5rem;
+        margin-left: 30px;
+        height: 50px;
+        width: 300px;
+    }
+    .dropdown-menu {
+        border:none !important;
+    }
+
+    .menu-title {
+        float: right;
+        margin-top: 15px;
+        margin-right: 170px;
+        font-size: 1.7rem;
+    }
+
+    #portfolio-div {
+
+    }
+    .portfolio-image {
+        position: relative;
+        width: 60%;
+        display: block;
+        margin: auto;
+        vertical-align: bottom;
+        margin-bottom: 50px;
+    }
+
 
     .welcome-arrow-down {
         color: rgb(40, 44, 45);
@@ -95,5 +212,4 @@ body {
         visibility: hidden;
     }
 
-
-}
+ }

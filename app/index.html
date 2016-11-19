@@ -8,50 +8,77 @@
 
     <title>Steffen Hammelow-Berg</title>
 
-    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
-    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css"/>
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="js/fullPage.js-master/dist/jquery.fullpage.css"/>
 
 </head>
-<body>
- <!-- #fullpage and .section are necessary classes for the fullpage.js plugin to work properly -->
-
- <header>
-     <div class="container-fluid">
-         <ul class="nav nav-pills">
-             <li role="header" class="dropdown">
-                 <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                     <i class="fa fa-bars fa-4x hamburger-icon" aria-hidden="true"></i>
-                 </a>
-                 <ul class="dropdown-menu">
-                     <div class="dropdown-list">
-                         <li><a href="#"><div class="list-box"><p>About</p></div></a></li>
-                         <li><a href="#"><div class="list-box"><p>Projects</p></div></a></li>
-                         <li><a href="#"><div class="list-box"><p>Contact</p></div></a></li>
-                     </div>
+<div id="fullpage">
+    <!--div class section is used to create a point for the fullpage.js plugin-->
+    <div class="section">
+         <div class="container-fluid">
+             <div class="navbar navbar-fixed-top">
+                 <ul class="nav nav-pills">
+                     <li role="header" class="dropdown">
+                         <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                            aria-expanded="false">
+                             <i class="fa fa-bars fa-4x hamburger-icon" aria-hidden="true"></i>
+                         </a>
+                         <ul class="dropdown-menu">
+                             <div class="dropdown-list">
+                                 <li><a href="#"><div class="list-box"><p>About</p></div></a></li>
+                                 <li><a href="#"><div class="list-box"><p>Projects</p></div></a></li>
+                                 <li><a href="#"><div class="list-box"><p>Contact</p></div></a></li>
+                             </div>
+                         </ul>
+                     </li>
                  </ul>
-                 <div class="menu-title">Welcome</div>
-             </li>
-         </ul>
-     </div>
- </header>
+             </div>
+         </div>
+     <div class="menu-title"><h1>Welcome</h1></div>
+    <div class="page1">
+      <div class="container">
+            <div id="portfolio-div"><picture><img class="portfolio-image img-fluid" src="img/Portfolio_background.jpg"
+                                                  alt="Red Portfolio Background"></picture></div>
+            <div class="arrow-down-div"><i class="fa fa-arrow-down welcome-arrow-down fa-2x" aria-hidden="true"></i></div>
+            <div class="aboutme-mob-text"><p class=""></p></div>
+      </div>
+    </div>
+</div>
+    <div class="section">
+        <section class="page2">
+            <div class="container">
+                <div class="header-page-2"><h1 class="header-about">About</h1>
 
+                </div>
+             <div class="sketch-arrow row">
+             <img class="img-fluid sketch-shb-mob col-sm-6" src="img/sketch_mob_portrait.png"
+                 alt="A computer sketched picture of Steffen Hammelow-Berg">
+             <i class="fa fa-arrow-right col-sm-6 about-arrow-right fa-2x" aria-hidden="true"></i>
+            </div>
 
-
-<footer>
-  <div class="container">
-        <div id="portfolio-div"><img class="portfolio-image img-fluid" src="img/Portfolio_background.jpg" alt="Red Portfolio Background"></div>
-        <div class="arrow-down-div"><i class="fa fa-arrow-down welcome-arrow-down fa-3x" aria-hidden="true"></i></div>
-
-  </div>
-</footer>
+            <p class="about-me-text">Hi and welcome.
+                My name is Steffen and I'm web developer accepting freelance work.
+                Please feel free to view my past projects, and make sure
+                to check them out at github.
+            </p>
+            </div>
+        </section>
+    </div>
+        <div class="fp-slides">
+            <p>THIS IS A TESTRØÆLKAFJLKØDASJFLKÆDASJFØLKDJASØLFKJFØLJ</p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet, consectetur consequatur, eaque incidunt libero maiores natus nesciunt non perspiciatis quasi veniam voluptas? Assumenda delectus illum, maiores quae similique tempora?
+        </div>
 
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
-
+    <script type="text/javascript" src="js/bootstrap-autohidingnavbar-master/dist/jquery.bootstrap-autohidingnavbar.min.js"></script>
+    <script type="text/javascript" src="js/fullPage.js-master/dist/jquery.fullpage.min.js"></script>
 </div>
+
 </body>
 </html>
