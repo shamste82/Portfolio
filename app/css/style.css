@@ -27,15 +27,17 @@ body {
 
  h1 {
      font-family: unicaone;
-     padding:0 0 0 0;
-     margin: 0 0 0 0;
+
  }
-
-
 
  p{
      font-size: 1.3rem;
  }
+
+.btn-success {
+    background-color: #CD4746;
+}
+
 @media only screen and (max-width: 468px)
     and (orientation: portrait) {
     /* Removes carret from hamburger icon */
@@ -101,44 +103,112 @@ body {
 
     .welcome-arrow-down {
         color: rgb(40, 44, 45);
-        width: 100%;
+        width: 50px;
         display: inline-block;
         text-align: center;
-        margin-top: 40px;
-        margin-bottom: 0px;
         visibility: hidden;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+
     }
 
      .header-about {
-     margin-left: 250px;
-     margin-top: 80px;
-     margin-bottom: 20px;
+     float: right;
+     margin: 0 50px 50px 0;
+     }
 
-
- }
 
     .sketch-shb-mob {
-        position: absolute;
         height: 300px;
-        left: 15%;
+        float: right;
+        margin-bottom: 20px;
+    }
 
+    .div-arrow-right-img {
+        float: right;
+        width: 80px;
+        margin-top: 165px;
+        visibility: hidden;
 
     }
-    .about-arrow-right {
-        z-index: 1;
-        position: absolute;
-        margin-left: 330px;
-        margin-top: 180px;
 
-    }
     .about-me-text {
         width: 80%;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 320px;
+    }
+
+    .img-bergen {
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+
+    .header-about-3 {
+        float: right;
+        margin: -30px 20px 0px 0;
+    }
+
+    .img-arrow-left {
+        width: 50px;
+        margin-top: 100px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .img-arrow-left-div {
+        margin: 0 0 0 0;
+        width: 30px;
+        padding: 0 0 0 0;
+        margin-top: 100px;
+    }
+
+    #project-header {
+        margin-bottom: 50px;
+        margin-left: 200px;
+    }
+
+    .project1-img {
+        margin-bottom: 20px;
+
+    }
+
+    .div-github-logo {
+        margin-top: 200px;
+        margin-left: 20px;
+    }
+    .arrow-right-mob {
+        width: 60px;
+        margin-bottom: 150px;
+        float: right;
+        visibility: hidden;
+    }
+    .project-2-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 150px;
+    }
+
+    .contact-header {
+        float: right;
+        margin-bottom: 75px;
+        margin-right: 50px;
+    }
+
+    .form-group {
+        margin-top: 40px;
+    }
+    .first-last-name {
+        height: 20px;
     }
 
 }
+
+ /*Mobile with landscape orientation*/
 
  @media only screen and (min-width: 468px)
     and (orientation: landscape) {
@@ -146,9 +216,17 @@ body {
         display: none;
     }
 
+     .nav-pills {
+         visibility: hidden;
+
+     }
+
      .hamburger-icon {
         color: rgb(40, 44, 45);
     }
+     .dropdown {
+         position: absolute;
+     }
 
      /* Removes the underline of the anchor tag and colors it */
     .dropdown-list li a {
@@ -184,32 +262,316 @@ body {
     }
 
     .menu-title {
+        position: absolute;
         float: right;
         margin-top: 15px;
         margin-right: 170px;
         font-size: 1.7rem;
+        margin-left: 30px;
+    }
+    #welcome-heading {
+        margin-left: 480px;
+        padding-right: 30px;
+        visibility: hidden;
     }
 
-    #portfolio-div {
-
-    }
     .portfolio-image {
         position: relative;
         width: 60%;
         display: block;
         margin: auto;
-        vertical-align: bottom;
+
+    }
+
+
+    .container-about {
+        margin: 0 0 0 0;
+    }
+
+    .header-about {
+        position: static;
+        margin-left: 500px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+
+    }
+
+    .sketch-shb-mob {
+        position: absolute;
+        height: 280px;
+        margin-bottom: 20px;
+    }
+
+
+    .div-arrow-right-img {
+        float: right;
+        width: 80px;
+        margin-top: 165px;
+        visibility: hidden;
+
+    }
+    .about-row{
+        position: absolute;
+        width: 100%;
+    }
+    .about-text-div {
+        width: 100%;
+        margin-left: 220px;
+        margin-bottom: 400px;
+    }
+
+    .about-me-text {
+        width: 60%;
+    }
+
+
+    .img-bergen {
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 50px;
     }
 
+    .header-about-3 {
+        float: right;
+        margin: -30px 20px 0px 0;
+    }
 
-    .welcome-arrow-down {
+    .img-arrow-left {
+        width: 50px;
+        margin-top: 100px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .img-arrow-left-div {
+        width: 30px;
+        padding: 0 0 0 0;
+        margin-top: 100px;
+    }
+
+    #project-header {
+        margin-bottom: 50px;
+        margin-left: 200px;
+    }
+
+    .project1-img {
+        margin-bottom: 20px;
+
+    }
+
+    .div-github-logo {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .arrow-right-mob {
+        width: 60px;
+        float: right;
+    }
+    .project-2-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 150px;
+    }
+
+    .contact-header {
+        float: right;
+        margin-bottom: 75px;
+        margin-right: 50px;
+    }
+
+    .form-group {
+        padding: 20px;
+
+
+    }
+    .first-last-name {
+        height: 50px;
+
+    }
+
+ }
+
+ @media only screen and (min-width: 750px){
+
+          a.dropdown-toggle::after {
+        display: none;
+    }
+     .hamburger-navbar {
+         display: none;
+     }
+
+
+     .hamburger-icon {
         color: rgb(40, 44, 45);
-        width: 100%;
-        display: inline-block;
-        text-align: center;
-        margin-top: 40px;
+    }
+     .dropdown {
+         position: absolute;
+     }
+
+     /* Removes the underline of the anchor tag and colors it */
+    .dropdown-list li a {
+        text-decoration: none;
+        color: rgb(40, 44, 45);
+
+    }
+
+    /* Sets the background color */
+    .dropdown-list li:hover {
+        background-color: #cf4646;
+        background-image: none;
+    }
+
+    .dropdown-menu .list-box {
+        border: 1px solid rgb(40, 44, 45);
+    }
+
+
+    .dropdown-list > li a:hover {
+        text-decoration: none !important;
+        color: ghostwhite;
+    }
+
+    .dropdown-list li p {
+        font-size: 1.5rem;
+        margin-left: 30px;
+        height: 50px;
+        width: 300px;
+    }
+    .dropdown-menu {
+        border:none !important;
+    }
+
+    .menu-title {
+        position: absolute;
+        float: right;
+        margin-top: 15px;
+        margin-right: 170px;
+        font-size: 1.7rem;
+        margin-left: 30px;
+    }
+    #welcome-heading {
+        margin-left: 480px;
+        padding-right: 30px;
         visibility: hidden;
     }
+
+    .portfolio-image {
+        position: relative;
+        width: 60%;
+        display: block;
+        margin: auto;
+
+    }
+
+
+    .container-about {
+        margin: 0 0 0 0;
+    }
+
+    .header-about {
+        position: static;
+        margin-left: 500px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+
+    }
+
+    .sketch-shb-mob {
+        position: absolute;
+        height: 280px;
+        margin-bottom: 20px;
+    }
+
+
+    .div-arrow-right-img {
+        float: right;
+        width: 80px;
+        margin-top: 165px;
+        visibility: hidden;
+
+    }
+    .about-row{
+        position: absolute;
+        width: 100%;
+    }
+    .about-text-div {
+        width: 100%;
+        margin-left: 220px;
+        margin-bottom: 400px;
+    }
+
+    .about-me-text {
+        width: 60%;
+    }
+
+
+    .img-bergen {
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+
+    .header-about-3 {
+        float: right;
+        margin: -30px 20px 0px 0;
+    }
+
+    .img-arrow-left {
+        width: 50px;
+        margin-top: 100px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .img-arrow-left-div {
+        width: 30px;
+        padding: 0 0 0 0;
+        margin-top: 100px;
+    }
+
+    #project-header {
+        margin-bottom: 50px;
+        margin-left: 200px;
+    }
+
+    .project1-img {
+        margin-bottom: 20px;
+
+    }
+
+    .div-github-logo {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .arrow-right-mob {
+        width: 60px;
+        float: right;
+    }
+    .project-2-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 150px;
+    }
+
+    .contact-header {
+        float: right;
+        margin-bottom: 75px;
+        margin-right: 50px;
+    }
+
+    .form-group {
+        padding: 20px;
+
+
+    }
+    .first-last-name {
+        height: 50px;
+
+    }
+
 
  }
