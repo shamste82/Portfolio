@@ -1,5 +1,26 @@
 
 $(document).ready(function() {
+    // Makes it navigation friendly for tablet resolution
+    if((window.screen.availWidth > 750) && (window.screen.availHeight > 920) ||
+        (window.screen.availWidth > 1010) && (window.screen.availHeight > 660)) {
+        $('#fullpage').fullpage({
+            anchors: ['section-welcome', 'section-about', 'section-projects', 'section-contact'],
+            controlArrows: false,
+            navigation: true,
+            slidesNavigation: true,
+            paddingTop: '0px'
+        });
+
+        //Mobile navigation
+    } else {
+        $('#fullpage').fullpage({
+            anchors:['section-welcome', 'section-about', 'section-projects', 'section-contact'],
+            controlArrows: false,
+            navigation: false,
+            slidesNavigation: false,
+            paddingTop: '0px'
+        });
+    }
 
     $('.menu-title').addClass("animated bounceIn");
 
@@ -42,14 +63,6 @@ $(document).ready(function() {
 
     // Hides the navbar when scrolling down.
     $(".navbar-fixed-top").autoHidingNavbar();
-
-    // Calls the fullpage plugin
-    $('#fullpage').fullpage({
-        anchors:['section-welcome', 'section-about', 'section-projects', 'section-contact'],
-        controlArrows: false,
-        paddingTop: '0px',
-    });
-
 
 
 });

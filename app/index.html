@@ -15,6 +15,7 @@
     <link type="text/css" rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
+
 <div id="fullpage">
     <!--div class section is used to create a point for the fullpage.js plugin-->
     <div class="section" data-anchor="section-welcome">
@@ -38,10 +39,10 @@
                      </li>
                  </ul>
              </div>
-
-             <!--This is the navbar for tablet and desktop-->
-
          </div>
+
+
+
     <div class="page1">
       <div class="container">
             <div id="portfolio-div"><picture><img class="portfolio-image img-fluid" src="img/Portfolio_background.jpg"
@@ -49,6 +50,7 @@
       </div>
     </div>
     </div>
+
 
     <div class="section">
         <div class="slide">
@@ -59,8 +61,8 @@
                 </div>
                 <div class="row about-row">
                         <div class="image-sketch col-xs-9">
-                            <img class="img-fluid sketch-shb-mob" src="img/sketch_mob_portrait.png"
-                            alt="A computer sketched image of Steffen Hammelow-Berg">
+                            <img class="img-fluid sketch-shb" src="img/sketch_mob_portrait.png"
+                                 alt="A computer sketched image of Steffen Hammelow-Berg">
                         </div>
                         <div class="div-arrow-right-img col-xs-3">
                             <img class="img-fluid arrow-right-img" src="img/arrow_right.png" alt="image right arrow">
@@ -68,9 +70,10 @@
 
                 </div>
                 <div class="about-text-div">
-                    <p class="about-me-text">Hi and welcome.</p>
-                       <p class="about-me-text"> My name is Steffen Hammelow-Berg, and I'm a freelance web developer.
-                        Please feel free to view my past projects.
+                    <p class="about-me-text">Hi and welcome.
+                        My name is Steffen Hammelow-Berg.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, minima, nam!
+
                     </p>
                 </div>
 
@@ -84,7 +87,7 @@
                 </div>
                     <div class="img-bergen-div"><img src="img/Bergen_Norway_sketch_mob_land.jpg" alt="A picture of Bergen,
                     Norway" class="img-bergen"></div>
-                <p class="text-about-me">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus at cupiditate eum, facere
+                <p class="text-about-me-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus at cupiditate eum, facere
                     magnam modi nihil odit, reiciendis repellat, totam unde voluptatibus? Alias eveniet fuga laboriosam
                     magni, provident qui reprehenderit.</p>
 
@@ -93,16 +96,17 @@
     <div class="section">
         <section class="page3">
         <div class="slide">
-            <div class="container">
+            <div class="container project-container">
             <h1 id="project-header">Projects</h1>
-            <picture>
-                <img src="img/project_1.png" alt="picture of first project" class="img-thumbnail project1-img">
-            </picture>
-                <img src="img/arrow_right.png" class="img-fluid arrow-right-mob">
-                <div class="div-github-logo">
-                    <a href="https://github.com/shamste82/my_movies"> <i class="fa fa-github fa-3x github-logo" aria-hidden="true"></i></a>
-                </div>
-            </div>
+                <div class="project-images">
+                    <picture>
+                        <img src="img/project_1.png" alt="picture of first project" class="img-thumbnail project1-img">
+                    </picture>
+                    <img src="img/arrow_right.png" class="img-fluid arrow-right-mob">
+                    <div class="div-github-logo">
+                        <a href="https://github.com/shamste82/my_movies"> <i class="fa fa-github fa-3x github-logo" aria-hidden="true"></i></a>
+                    </div>
+                 </div>
         </div>
         <div class="slide">
             <img src="http://placehold.it/350x150" class="img-thumbnail img-fluid project-2-img">
@@ -113,9 +117,11 @@
 
     <div class="section">
         <div class="test"><h1 class="contact-header">Contact</h1></div>
+        <div class="contact-icon"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></div>
         <section id="contact">
              <div class="section-contact">
                  <div class="container">
+
                      <div class="row">
                          <div class="col-xs-8 offset-xs-2">
                              <form class="form-horizontal" role="form" method="post" action="index.py">
@@ -138,9 +144,9 @@
                                      </div>
                                  </div>
 
-                                 <div class="form-group">
+                                 <div class="form-group send-button">
                                     <div class="col-sm-8 col-sm-offset-2">
-                                        <input id="submit" name="submit" type="submit" value="Send" class="btn btn-success">
+                                        <input id="submit" name="submit" type="submit" value="Send" class="btn btn-success send-button">
                                     </div>
 						         </div>
                                 <div class="form-group">
