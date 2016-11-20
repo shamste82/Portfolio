@@ -42,7 +42,7 @@ body {
     background-color: #CD4746;
 }
 
-@media only screen and (max-width: 468px)
+@media only screen and (max-width: 740px)
     and (orientation: portrait) {
     /* Removes carret from hamburger icon */
     a.dropdown-toggle::after {
@@ -79,8 +79,8 @@ body {
     .dropdown-list li p {
         font-size: 1.5rem;
         margin-left: 30px;
-        height: 150px;
-        width: 300px;
+        height: 120px;
+        width: 200px;
     }
     .dropdown-menu {
         border:none !important;
@@ -97,6 +97,7 @@ body {
     #portfolio-div {
         margin-top: 200px;
     }
+
     .portfolio-image {
         position: relative;
         width: 90%;
@@ -105,35 +106,25 @@ body {
     }
 
 
-    .welcome-arrow-down {
-        color: rgb(40, 44, 45);
-        width: 50px;
-        display: inline-block;
-        text-align: center;
-        visibility: hidden;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 20px;
-
-    }
-
      .header-about {
      float: right;
-     margin: 0 50px 50px 0;
+     margin: 10% 10% 10% 0;
      }
 
+    .container-about {
+        margin-bottom: 10%;
+    }
 
     .sketch-shb {
-        height: 300px;
+        height: 70vw;
         float: right;
         margin-bottom: 20px;
     }
 
     .div-arrow-right-img {
         float: right;
-        width: 80px;
-        margin-top: 165px;
+        width: 20vw;
+        margin-top: 50%;
         visibility: hidden;
 
     }
@@ -145,11 +136,11 @@ body {
     }
 
     .img-bergen {
-        width: 300px;
+        width: 90vw;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 50px;
+        margin-bottom: 10%;
     }
 
     .header-about-3 {
@@ -157,50 +148,43 @@ body {
         margin: -30px 20px 0px 0;
     }
 
-    .img-arrow-left {
-        width: 50px;
-        margin-top: 100px;
-        margin-right: 0px;
-        margin-left: 0px;
-    }
-    .img-arrow-left-div {
-        margin: 0 0 0 0;
-        width: 30px;
-        padding: 0 0 0 0;
-        margin-top: 100px;
+    .text-about-me-2 {
+        width: 80%;
+        display: block;
+        margin: 0 auto 0 auto;
+
     }
 
     #project-header {
-        margin-bottom: 50px;
-        margin-left: 200px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 50%;
     }
 
-    .project1-img {
-        margin-bottom: 20px;
-
+    .project-images {
+        margin-top: 30%;
     }
-
     .div-github-logo {
-        margin-top: 200px;
-        margin-left: 20px;
+        margin-bottom: 20%;
+        margin-top: 40%;
+        margin-left: 10%;
     }
     .arrow-right-mob {
-        width: 60px;
-        margin-bottom: 150px;
+        width: 15vw;
+        margin-top: 10%;
+        margin-left: 80%;
         float: right;
         visibility: hidden;
     }
     .project-2-img{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 150px;
+       display: block;
+        margin: auto;
+
     }
 
     .contact-header {
         float: right;
-        margin-bottom: 75px;
-        margin-right: 50px;
+        margin: 10% 10%;
     }
 
     .form-group {
@@ -208,6 +192,10 @@ body {
     }
     .first-last-name {
         height: 20px;
+    }
+    .contact-icon {
+        display: block;
+        margin: 30% 0 0% 25%;
     }
 
 }
@@ -644,8 +632,128 @@ body {
      .send-button {
          margin-top: 50px;
      }
+ }
+
+@media only screen and (min-width: 1023px) {
+
+    /*Disables the navbar made for mobile*/
+     .hamburger-navbar {
+         display: none;
+     }
+
+     .portfolio-image {
+         width: 40%;
+         display: block;
+         margin: auto;
+     }
+
+     .container-about {
+         display: block;
+         margin: auto;
+     }
+
+     .header-about {
+         margin-left: 700px;
+         margin-top: 60px;
+     }
+
+     .arrow-right-img {
+         display: none;
+         float: left;
+     }
+
+     .sketch-shb {
+         height: 350px;
+         margin-left: 100px;
+         margin-top: 0%;
+     }
+
+     .about-row {
+
+     }
+
+     .about-text-div {
+
+         width: 60%;
+         margin-left: 50%;
+         margin-top: 10%;
+     }
+
+     .about-me-text {
+
+         width: 50%;
+         font-size: 1.2rem;
+
+     }
+
+     .img-bergen {
+         width: 550px;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         margin-bottom: 50px;
+     }
+
+     .text-about-me-2 {
+         width: 30%;
+         display: block;
+         margin-right: auto;
+         margin-left: auto;
+     }
+
+     /*Projects page*/
 
 
+     #project-header {
+         margin-left: 80%;
+     }
 
+     .project-images {
+         margin-top: 10%;
+     }
+
+     .div-github-logo {
+         margin-top: 10%;
+         margin-left: 20px;
+     }
+
+     .arrow-right-mob {
+         display: none;
+     }
+
+     .project-2-img {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         margin-bottom: 150px;
+     }
+
+     .contact-header {
+
+         margin-right: 20%;
+     }
+
+     .section-contact {
+         margin-bottom: 400px;
+     }
+
+     .contact-icon {
+         margin-top: 60%%;
+         margin-left: 33%;
+         margin-bottom: 5%;
+     }
+
+     .form-group {
+         padding: 20px;
+     }
+
+     .first-last-name {
+         height: 50px;
+
+     }
+
+     .send-button {
+         margin-top: 50px;
+     }
 
  }

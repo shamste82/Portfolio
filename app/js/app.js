@@ -1,7 +1,21 @@
 
 $(document).ready(function() {
-    // Makes it navigation friendly for tablet resolution
-    if((window.screen.availWidth > 750) && (window.screen.availHeight > 920) ||
+
+    // Makes it navigation friendly for desktop
+    if((window.screen.availWidth > 1023) && (window.screen.availHeight > 767) )
+    {
+        $('#fullpage').fullpage({
+            anchors:['section-welcome', 'section-about', 'section-projects', 'section-contact'],
+            controlArrows: true,
+            navigation: false,
+            slidesNavigation: false,
+            paddingTop: '0px'
+        });
+
+    }
+
+    // Makes it navigation friendly for tablet
+    else if((window.screen.availWidth > 750) && (window.screen.availHeight > 920) ||
         (window.screen.availWidth > 1010) && (window.screen.availHeight > 660)) {
         $('#fullpage').fullpage({
             anchors: ['section-welcome', 'section-about', 'section-projects', 'section-contact'],
@@ -22,6 +36,7 @@ $(document).ready(function() {
         });
     }
 
+    //Animation for mobile version
     $('.menu-title').addClass("animated bounceIn");
 
     $('.dropdown').on('show.bs.dropdown', function (e) {
@@ -39,7 +54,7 @@ $(document).ready(function() {
 
     });
 
-    // The arrow blinks when page2 is touched/hovered
+    // The arrow blinks when page2 is touched/hovered (mobile)
     $('.page2').hover(function () {
         $('.div-arrow-right-img').css('visibility', 'visible');
         $('.div-arrow-right-img').addClass('animated flash');
@@ -50,7 +65,7 @@ $(document).ready(function() {
 
     });
 
-    // The arrow blinks when page3 is touched/hovered
+    // The arrow blinks when page3 is touched/hovered (mobile)
     $('.page3').hover(function () {
         $('.arrow-right-mob').css('visibility', 'visible');
         $('.arrow-right-mob').addClass('animated flash');
@@ -61,7 +76,7 @@ $(document).ready(function() {
 
     });
 
-    // Hides the navbar when scrolling down.
+    // Hides the navbar when scrolling down. (mobile)
     $(".navbar-fixed-top").autoHidingNavbar();
 
 
