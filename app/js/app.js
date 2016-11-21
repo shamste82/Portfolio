@@ -2,21 +2,20 @@
 $(document).ready(function() {
 
     // Makes it navigation friendly for desktop
-    if((window.screen.availWidth > 1279) && (window.screen.availHeight > 700) )
+    if((window.screen.availWidth > 1279))
     {
         $('#fullpage').fullpage({
             anchors:['section-welcome', 'section-about', 'section-projects', 'section-contact'],
             controlArrows: true,
-            navigation: false,
+            navigation: true,
             slidesNavigation: false,
-            paddingTop: '0px'
+            paddingTop: '0px',
         });
 
     }
 
     // Makes it navigation friendly for tablet
-    else if((window.screen.availWidth > 750) && (window.screen.availHeight > 920) ||
-        (window.screen.availWidth > 1000) && (window.screen.availHeight > 660)) {
+    else if((window.screen.availWidth > 768)){
         $('#fullpage').fullpage({
             anchors: ['section-welcome', 'section-about', 'section-projects', 'section-contact'],
             controlArrows: false,

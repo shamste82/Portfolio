@@ -141,7 +141,7 @@ body {
         margin: 0 0 45% 55%;
     }
 
-    .project1-img {
+    .project-img {
         display: block;
     }
 
@@ -411,12 +411,16 @@ body {
          margin-bottom: 80%;
 
      }
+     .contact-icon {
+         margin-left: 33.333%;
+     }
 
  }
 
 
  @media only screen and (min-width: 768px)
     and (orientation: landscape) {
+
      /*Disables the navbar made for mobile*/
      .hamburger-navbar {
          display: none;
@@ -428,68 +432,69 @@ body {
          margin: auto;
      }
 
-     .header-about {
-         margin-left: 80%;
-         margin-bottom: 10%;
+     .container-about {
+         position: relative;
      }
 
-     .arrow-right-img {
-         display: none;
+     .header-about {
+        margin-top: 5%;
      }
 
      .sketch-shb {
          position: absolute;
          height: 30vw;
          margin-left: 10%;
+         margin-top: 25%;
      }
 
      .container-about {
          position: relative;
-         margin-bottom: 50%;
      }
 
      .about-text-div {
          position: absolute;
          width: 50%;
          margin-left: 40%;
-         margin-top: 10%
+         margin-top: 45%
 
      }
      .about-me-text {
-         font-size: 1rem;
+         font-size: 1.2rem;
+     }
+
+     .about-2-container{
+         position: relative;
+         height: 20%;
      }
 
      .img-bergen {
+         position: absolute;
          width: 35%;
          display: block;
-         margin-left: auto;
-         margin-right: auto;
-         margin-bottom: 50px;
+
      }
 
      .text-about-me-2 {
-         font-size: 1rem;
-         margin-left: 30%;
-         margin-right: 30%;
-         margin-bottom: 15%;
+         position: absolute;
+         font-size: 1.2rem;
+         margin-left: 45%;
+         margin-top: 8%;
      }
 
      /*Projects page*/
      .project-container {
-         margin-bottom: 400px;
+         margin-bottom: 15%;
      }
 
      #project-header {
-         margin-top: 10%;
+         margin-top: 5%;
          margin-left: 80%;
          margin-bottom: 10%;
      }
 
      .project-images {
-         margin-top: 50px;
-         width: 700px;
+         width: 80vw;
          display: block;
-         margin: auto auto;
      }
 
      .div-github-logo {
@@ -515,6 +520,7 @@ body {
      .contact-header {
          float: right;
          margin-right: 10%;
+         margin-top: 5%;
 
      }
 
@@ -523,9 +529,8 @@ body {
      }
 
      .contact-icon {
-         margin-top: 10%;
-         margin-left: 33%;
-         margin-bottom: 5%;
+         margin-top: 25%;
+         margin-left: 23%;
      }
 
      .form-group {
@@ -542,7 +547,7 @@ body {
      }
  }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1279px) {
 
     /*Disables the navbar made for mobile*/
      .hamburger-navbar {
@@ -565,10 +570,7 @@ body {
          margin-top: 5%;
      }
 
-     .arrow-right-img {
-         display: none;
-         float: left;
-     }
+
 
      .sketch-shb {
          height: 20vw;
@@ -589,41 +591,40 @@ body {
 
      .about-me-text {
          font-size: 1rem;
+     }
 
+     .about-2-container {
+         height: 40%;
      }
 
      .img-bergen {
          width: 25vw;
-         display: block;
-         margin-top: 5%;
-         margin-left: auto;
-         margin-right: auto;
      }
 
      .text-about-me-2 {
-         width: 30%;
-         display: block;
-         margin-right: auto;
-         margin-left: auto;
+         width: 40%;
      }
 
      /*Projects page*/
 
 
      #project-header {
-         margin-left: 80%;
+         margin-left: 88%;
          margin-top: 5%;
+         margin-bottom: 10%;
      }
 
 
      .div-github-logo {
-         margin-top: 10%;
+         margin-top: 2%;
+         margin-left: 4%;
      }
 
-     .arrow-right-mob {
-         display: none;
+     .project-img {
+         width: 60%;
+         display: block;
+         margin-left: 10%
      }
-
      .project-2-img {
          display: block;
          margin-left: auto;
@@ -637,7 +638,7 @@ body {
      }
 
      .contact-icon {
-         margin-left: 38%;
+         margin-left: 30.5%;
          margin-bottom: 2%;
      }
 
