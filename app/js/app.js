@@ -2,7 +2,7 @@
 $(document).ready(function() {
 
     // Makes it navigation friendly for desktop
-    if((window.screen.availWidth > 1023) && (window.screen.availHeight > 767) )
+    if((window.screen.availWidth > 1279) && (window.screen.availHeight > 799) )
     {
         $('#fullpage').fullpage({
             anchors:['section-welcome', 'section-about', 'section-projects', 'section-contact'],
@@ -16,7 +16,7 @@ $(document).ready(function() {
 
     // Makes it navigation friendly for tablet
     else if((window.screen.availWidth > 750) && (window.screen.availHeight > 920) ||
-        (window.screen.availWidth > 1010) && (window.screen.availHeight > 660)) {
+        (window.screen.availWidth > 1000) && (window.screen.availHeight > 660)) {
         $('#fullpage').fullpage({
             anchors: ['section-welcome', 'section-about', 'section-projects', 'section-contact'],
             controlArrows: false,
