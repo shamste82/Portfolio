@@ -15,9 +15,7 @@
  }
 
 body {
-
     background-image: url("../img/crossword/crossword.png");
-    background-color: #00aced;
 }
 
  a {
@@ -202,25 +200,18 @@ body {
 
  /*Mobile with landscape orientation*/
 
- @media only screen and (min-width: 468px)
+ @media only screen and (max-width: 999px)
     and (orientation: landscape) {
-         a.dropdown-toggle::after {
+        /* Removes carret from hamburger icon */
+    a.dropdown-toggle::after {
         display: none;
     }
-
-     .nav-pills {
-         visibility: hidden;
-
-     }
-
-     .hamburger-icon {
+    /* Colors the hamburger icon */
+    .hamburger-icon {
         color: rgb(40, 44, 45);
     }
-     .dropdown {
-         position: absolute;
-     }
 
-     /* Removes the underline of the anchor tag and colors it */
+    /* Removes the underline of the anchor tag and colors it */
     .dropdown-list li a {
         text-decoration: none;
         color: rgb(40, 44, 45);
@@ -247,82 +238,86 @@ body {
         font-size: 1.5rem;
         margin-left: 30px;
         height: 50px;
-        width: 300px;
+        width: 200px;
     }
     .dropdown-menu {
         border:none !important;
     }
 
     .menu-title {
-        position: absolute;
         float: right;
         margin-top: 15px;
-        margin-right: 170px;
+        margin-right: 45px;
         font-size: 1.7rem;
-        margin-left: 30px;
+
     }
-    #welcome-heading {
-        margin-left: 480px;
-        padding-right: 30px;
-        visibility: hidden;
+
+    #portfolio-div {
+        margin-top: 10%
     }
 
     .portfolio-image {
         position: relative;
-        width: 60%;
+        width: 50%;
         display: block;
         margin: auto;
-
     }
 
+
+     .header-about {
+     float: right;
+     margin: 10% 10% 10% 0;
+     }
 
     .container-about {
-        margin: 0 0 0 0;
+        margin-bottom: 50%;
+        position: relative;
     }
 
-    .header-about {
-        position: static;
-        margin-left: 500px;
-        margin-bottom: 20px;
-        margin-top: 20px;
-
-    }
 
     .sketch-shb {
-        position: absolute;
-        height: 280px;
-        margin-bottom: 20px;
+        height: 40vw;
+        margin-top: 20%;
     }
 
+    .col-xs-9 {
+        width: 60vw;
+    }
+
+    .arrow-right-img{
+        position: absolute;
+        margin-left: 450px;
+        width: 10vw;
+    }
 
     .div-arrow-right-img {
-        float: right;
-        width: 80px;
-        margin-top: 165px;
+        width: 15vw;
         visibility: hidden;
+        position: absolute;
 
     }
-    .about-row{
-        position: absolute;
-        width: 100%;
-    }
+
     .about-text-div {
-        width: 100%;
-        margin-left: 220px;
-        margin-bottom: 400px;
+        margin-left: 40%;
+        position: absolute;
+    }
+
+    .about-row {
+        position: absolute;
+
     }
 
     .about-me-text {
-        width: 60%;
+        margin-top: 40%;
+        font-size: 1rem;
     }
 
-
     .img-bergen {
-        width: 300px;
+        width: 50vw;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 50px;
+        margin-bottom: 1%;
     }
 
     .header-about-3 {
@@ -330,58 +325,62 @@ body {
         margin: -30px 20px 0px 0;
     }
 
-    .img-arrow-left {
-        width: 50px;
-        margin-top: 100px;
-        margin-right: 0px;
-        margin-left: 0px;
-    }
-    .img-arrow-left-div {
-        width: 30px;
-        padding: 0 0 0 0;
-        margin-top: 100px;
+    .text-about-me-2 {
+        width: 80%;
+        display: block;
+        margin: 0 auto 0 auto;
+        font-size: 1rem;
     }
 
     #project-header {
-        margin-bottom: 50px;
-        margin-left: 200px;
+        margin-top: 5%;
+
+        margin-left: 60%;
     }
 
-    .project1-img {
-        margin-bottom: 20px;
-
+    .project-images {
+        width: 60%;
+        display: block;
+        margin: 0 auto;
     }
+
 
     .div-github-logo {
-        margin-top: 20px;
-        margin-left: 20px;
+        position: absolute;
+        margin-top: 2%;
+
     }
     .arrow-right-mob {
-        width: 60px;
+        width: 15vw;
+        margin-top: 10%;
+        margin-left: 80%;
         float: right;
+        visibility: hidden;
     }
     .project-2-img{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 150px;
+       display: block;
+        margin: auto;
     }
+
 
     .contact-header {
         float: right;
-        margin-bottom: 75px;
-        margin-right: 50px;
+        margin: 10% 10%;
     }
 
-    .form-group {
-        padding: 20px;
-
-
-    }
     .first-last-name {
-        height: 50px;
-
+        height: 40px;
     }
+    .contact-icon {
+        display: block;
+        margin: 20% 0 0% 27%;
+    }
+    .col-div-contact {
+        width: 100%;
+        margin: auto;
+    }
+
+
 
  }
 
@@ -509,7 +508,7 @@ body {
  }
 
 
- @media only screen and (min-width: 1010px)
+ @media only screen and (min-width: 1000px)
     and (orientation: landscape) {
      /*Disables the navbar made for mobile*/
      .hamburger-navbar {

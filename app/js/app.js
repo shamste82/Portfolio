@@ -34,6 +34,7 @@ $(document).ready(function() {
             slidesNavigation: false,
             paddingTop: '0px'
         });
+
     }
 
     //Animation for mobile version
