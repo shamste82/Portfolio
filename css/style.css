@@ -11,7 +11,7 @@
 }
 
 body {
-    background-image: url("../img/crossword/crossword.png");
+    background-image: url("../../img/crossword/crossword.png");
 }
 
  a {
@@ -45,6 +45,12 @@ body {
 .btn-success {
     background-color: #CD4746;
 }
+
+ .fa-github {
+         color: rgb(40, 44, 45);
+ }
+
+
 
 @media only screen and (min-width: 320px)
     and (orientation: portrait) {
