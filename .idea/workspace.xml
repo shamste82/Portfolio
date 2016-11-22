@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0aa0808c-7b9a-46b3-957a-7aa1c881227b" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome.min.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/font-awesome/css/font-awesome.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Scaled/Bergen_Norway_1024px.png" afterPath="$PROJECT_DIR$/img/scaled/Bergen_Norway_1024px.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Scaled/Bergen_Norway_320px.png" afterPath="$PROJECT_DIR$/img/scaled/Bergen_Norway_320px.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Scaled/Bergen_Norway_640px.png" afterPath="$PROJECT_DIR$/img/scaled/Bergen_Norway_640px.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Scaled/project_1_1024px.png" afterPath="$PROJECT_DIR$/img/scaled/project_1_1024px.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Scaled/project_1_320px.png" afterPath="$PROJECT_DIR$/img/scaled/project_1_320px.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Scaled/project_1_640px.png" afterPath="$PROJECT_DIR$/img/scaled/project_1_640px.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Scaled/sketch_mob_portrait_1024px.png" afterPath="$PROJECT_DIR$/img/scaled/sketch_mob_portrait_1024px.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Scaled/sketch_mob_portrait_320px.png" afterPath="$PROJECT_DIR$/img/scaled/sketch_mob_portrait_320px.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Scaled/sketch_mob_portrait_640px.png" afterPath="$PROJECT_DIR$/img/scaled/sketch_mob_portrait_640px.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Scaled/sketch_portrait_1024px.png" afterPath="$PROJECT_DIR$/img/scaled/sketch_portrait_1024px.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Scaled/sketch_portrait_320px.png" afterPath="$PROJECT_DIR$/img/scaled/sketch_portrait_320px.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Scaled/sketch_portrait_640px.png" afterPath="$PROJECT_DIR$/img/scaled/sketch_portrait_640px.png" />
     </list>
     <ignored path="Portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,8 +62,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+            <state relative-caret-position="510">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -144,6 +159,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="font-awesome" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shamste82.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shamste82.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="font-awesome" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shamste82.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shamste82.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -171,11 +218,11 @@
       <recent name="D:\Dropbox\Web Development\Udacity\Full Stack Developer Course\projects\shamste82.github.io\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dropbox\Web Development\Udacity\Full Stack Developer Course\projects\shamste82.github.io\font-awesome\css" />
       <recent name="D:\Dropbox\Web Development\Udacity\Full Stack Developer Course\projects\shamste82.github.io\img\original" />
       <recent name="D:\Dropbox\Web Development\Udacity\Full Stack Developer Course\projects\shamste82.github.io\dist\css" />
       <recent name="D:\Dropbox\Web Development\Udacity\Full Stack Developer Course\projects\shamste82.github.io\dist\js" />
       <recent name="D:\Dropbox\Web Development\Udacity\Full Stack Developer Course\projects\shamste82.github.io\css\bootstrap" />
-      <recent name="D:\Dropbox\Web Development\Udacity\Full Stack Developer Course\projects\shamste82.github.io\css" />
     </key>
   </component>
   <component name="RunManager">
@@ -448,9 +495,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/js/app.js" />
-    <entry file="file://$PROJECT_DIR$/app/gulpfile.js" />
-    <entry file="file://$PROJECT_DIR$/app/package.json" />
     <entry file="file://$PROJECT_DIR$/app/css/style.css" />
     <entry file="file://$PROJECT_DIR$/app/index.html" />
     <entry file="file://$PROJECT_DIR$/app/js/app.js" />
@@ -478,10 +522,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/font-awesome.css">
+    <entry file="file://$PROJECT_DIR$/font-awesome/css/font-awesome.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -695,10 +740,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/original/sketch_portrait.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/scaled/sketch_portrait_320px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/scaled/sketch_portrait_1024px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        <state relative-caret-position="510">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
