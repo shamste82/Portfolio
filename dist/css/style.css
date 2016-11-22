@@ -1,0 +1,651 @@
+ /*black: rgb(40, 44, 45)*/
+
+@font-face {
+    font-family: unicaone;
+    src: url('font/unicaone/UnicaOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: vollkorn;
+    src: url('font/vollkorn/Vollkorn-Regular.ttf');
+}
+
+body {
+    background-image: url("../../img/crossword/crossword.png");
+}
+
+ a {
+     font-family: vollkorn;
+
+ }
+
+ div {
+    font-family: vollkorn;
+ }
+
+ h1 {
+     font-family: unicaone;
+
+ }
+
+ p{
+     font-size: 1.3rem;
+ }
+
+ .fp-controlArrow.fp-next {
+    border-color: transparent transparent transparent rgb(40, 44, 45);
+
+ }
+
+ .fp-controlArrow.fp-prev {
+    border-color: transparent  rgb(40, 44, 45) transparent transparent;
+
+ }
+
+.btn-success {
+    background-color: #CD4746;
+}
+
+ .fa-github {
+         color: rgb(40, 44, 45);
+ }
+
+
+
+@media only screen and (min-width: 320px)
+    and (orientation: portrait) {
+
+    .hamburger-navbar {
+        margin-bottom: 65%;
+    }
+
+    /* Removes carret from hamburger icon */
+    a.dropdown-toggle::after {
+        display: none;
+    }
+    /* Colors the hamburger icon */
+    .hamburger-icon {
+        color: rgb(40, 44, 45);
+    }
+
+    /* Removes the underline of the anchor tag and colors it */
+    .dropdown-list li a {
+        text-decoration: none;
+        color: rgb(40, 44, 45);
+    }
+
+    /* Sets the background color */
+    .dropdown-list li:hover {
+        background-color: #cf4646;
+        background-image: none;
+    }
+
+    .dropdown-menu .list-box {
+        border: 1px solid rgb(40, 44, 45);
+    }
+
+
+    .dropdown-list > li a:hover {
+        text-decoration: none !important;
+        color: ghostwhite;
+    }
+
+    .dropdown-list li p {
+        font-size: 1.5rem;
+        margin-left: 30px;
+        height: 120px;
+        width: 200px;
+    }
+    .dropdown-menu {
+        border:none !important;
+    }
+
+    .menu-title {
+        float: right;
+        margin-top: 15px;
+        margin-right: 45px;
+        font-size: 1.7rem;
+
+    }
+
+    .portfolio-image {
+        width: 90%;
+        display: block;
+        margin: 0 auto 15% auto;
+    }
+
+     .header-about {
+     margin: 0 10% 5% 55%;
+     }
+
+    .sketch-shb {
+        height: 70vw;
+        display: block;
+        margin: 0 auto 10% auto;
+    }
+
+    .about-me-text {
+        width: 80%;
+        margin: 0 auto 20% auto;
+    }
+
+    .img-bergen {
+        width: 90vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10%;
+    }
+
+    .text-about-me-2 {
+        width: 80%;
+        display: block;
+        margin: 0 auto 0 auto;
+    }
+
+    #project-header {
+        margin: 0 0 45% 55%;
+    }
+
+    .project-img {
+        display: block;
+    }
+
+    .github-logo {
+        margin-top: 15%;
+        margin-bottom: 30%;
+    }
+    .project-2-img{
+        display: block;
+        margin: auto;
+    }
+    .contact-header {
+        float: right;
+        margin: 0 10%;
+    }
+
+    .form-group {
+        margin-top: 40px;
+    }
+    .first-last-name {
+        height: 20px;
+    }
+    .contact-icon {
+        display: block;
+        margin: 30% 0 0% 25%;
+    }
+
+}
+
+ /*Mobile with landscape orientation*/
+
+ @media only screen and (min-width: 320px)
+    and (orientation: landscape) {
+
+        /* Removes carret from hamburger icon */
+    a.dropdown-toggle::after {
+        display: none;
+    }
+
+     .hamburger-navbar {
+     }
+
+    .hamburger-icon {
+        color: rgb(40, 44, 45);
+    }
+
+    /* Removes the underline of the anchor tag and colors it */
+    .dropdown-list li a {
+        text-decoration: none;
+        color: rgb(40, 44, 45);
+
+    }
+
+    /* Sets the background color */
+    .dropdown-list li:hover {
+        background-color: #cf4646;
+        background-image: none;
+    }
+
+    .dropdown-menu .list-box {
+        border: 1px solid rgb(40, 44, 45);
+    }
+
+
+    .dropdown-list > li a:hover {
+        text-decoration: none !important;
+        color: ghostwhite;
+    }
+
+    .dropdown-list li p {
+        font-size: 1.5rem;
+        margin-left: 30px;
+        height: 50px;
+        width: 200px;
+    }
+    .dropdown-menu {
+        border:none !important;
+    }
+
+    .menu-title {
+        float: right;
+        margin-top: 15px;
+        margin-right: 45px;
+        font-size: 1.7rem;
+
+    }
+
+    .portfolio-image {
+        width: 70%;
+        display: block;
+        margin: 0 auto 15% auto;
+    }
+
+
+     .header-about {
+         float: right;
+         margin: 0% 5% 80% 0;
+     }
+
+    .container-about {
+        position: relative;
+    }
+
+    .sketch-shb {
+        height: 40vw;
+        margin-top: 15%;
+        position: absolute;
+    }
+
+
+
+    .about-text-div {
+        margin-left: 40%;
+        margin-top: 25%;
+        position: absolute;
+        width: 50%
+    }
+
+    .about-me-text {
+        margin-bottom: 30%;
+        font-size: 1rem;
+        position: absolute;
+    }
+
+    .about-2-container {
+        position: relative;
+    }
+
+    .img-bergen-div {
+        margin-right: 20%;
+    }
+    .img-bergen {
+        width: 35vw;
+        margin-bottom: 1%;
+        position: absolute;
+    }
+
+    .text-about-me-2 {
+        width: 50%;
+        display: block;
+        margin: 0 auto 0 50%;
+        font-size: 1rem;
+    }
+
+    #project-header {
+        margin-left: 75%;
+        margin-bottom: 10%;
+    }
+
+    .project-images {
+        width: 70%;
+        display: block;
+        margin: 0 auto 20% auto;
+    }
+
+    .div-github-logo {
+        position: absolute;
+        margin-top: 2%;
+
+    }
+
+    .project-2-img{
+       display: block;
+        margin: auto;
+    }
+
+    .contact-header {
+        float: right;
+        margin-right: 15%;
+        margin-bottom: 20%;
+    }
+
+    .first-last-name {
+        height: 40px;
+    }
+
+    .contact-icon {
+        display: block;
+        margin: 15% 0 0% 27%;
+    }
+
+    .col-div-contact {
+        width: 100%;
+        margin: 0 auto 20% auto;
+    }
+
+
+
+ }
+ /*tablet portrait*/
+ @media only screen and (min-width: 768px) and (orientation:portrait){
+
+     /*Disables the navbar made for mobile*/
+     .hamburger-navbar {
+         display: none;
+     }
+
+     .portfolio-image {
+         width: 60%;
+         display: block;
+         margin: auto;
+     }
+
+     .header-about {
+         margin-left: 75%;
+         margin-bottom: 15%;
+     }
+
+     .sketch-shb {
+         height: 40vw;
+     }
+
+
+     .about-text-div {
+         width: 60%;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         margin-bottom: 40%;
+     }
+
+     .about-me-text {
+         font-size: 1.2rem;
+     }
+
+     .img-bergen {
+         width: 50vw;
+         display: block;
+         margin: 20% auto 10% auto;
+     }
+
+     .text-about-me-2 {
+         display: block;
+         margin-right: auto;
+         margin-left: auto;
+         margin-bottom: 30%;
+         width: 60%;
+     }
+
+     /*Projects page*/
+
+     #project-header {
+         margin: 5% 0 15% 75%;
+     }
+
+     .div-github-logo {
+         margin-top: 120px;
+         margin-left: 20px;
+     }
+
+     .project-2-img {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+     }
+
+     .contact-header {
+         margin: 5% 10% 15% 0;
+     }
+
+     .form-group {
+         padding: 20px;
+     }
+
+     .send-button {
+         margin-top: 10%;
+         margin-bottom: 80%;
+
+     }
+     .contact-icon {
+         margin-left: 33.333%;
+     }
+
+ }
+
+
+ @media only screen and (min-width: 768px)
+    and (orientation: landscape) {
+
+     /*Disables the navbar made for mobile*/
+     .hamburger-navbar {
+         display: none;
+     }
+
+     .portfolio-image {
+         width: 60%;
+         display: block;
+         margin: auto;
+     }
+
+     .container-about {
+         position: relative;
+     }
+
+     .header-about {
+        margin-top: 5%;
+     }
+
+     .sketch-shb {
+         position: absolute;
+         height: 30vw;
+         margin-left: 10%;
+         margin-top: 25%;
+     }
+
+     .container-about {
+         position: relative;
+     }
+
+     .about-text-div {
+         position: absolute;
+         width: 50%;
+         margin-left: 40%;
+         margin-top: 45%
+
+     }
+     .about-me-text {
+         font-size: 1.2rem;
+     }
+
+     .about-2-container{
+         position: relative;
+         height: 20%;
+     }
+
+     .img-bergen {
+         position: absolute;
+         width: 35%;
+         display: block;
+
+     }
+
+     .text-about-me-2 {
+         position: absolute;
+         font-size: 1.2rem;
+         margin-left: 45%;
+         margin-top: 8%;
+     }
+
+     /*Projects page*/
+     .project-container {
+         margin-bottom: 15%;
+     }
+
+     #project-header {
+         margin-top: 5%;
+         margin-left: 80%;
+         margin-bottom: 10%;
+     }
+
+     .project-images {
+         width: 80vw;
+         display: block;
+     }
+
+     .div-github-logo {
+         margin-top: 50px;
+         margin-left: 20px;
+
+     }
+     .fa-github {
+         color: rgb(40, 44, 45);
+     }
+
+     .arrow-right-mob {
+         display: none;
+     }
+
+     .project-2-img {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         margin-bottom: 150px;
+     }
+
+     .contact-header {
+         float: right;
+         margin-right: 10%;
+         margin-top: 5%;
+
+     }
+
+     .section-contact {
+         margin-bottom: 10%;
+     }
+
+     .contact-icon {
+         margin-top: 25%;
+         margin-left: 23%;
+     }
+
+     .form-group {
+         padding: 20px;
+     }
+
+     .first-last-name {
+         height: 50px;
+
+     }
+
+     .send-button {
+         margin-top: 50px;
+     }
+ }
+
+@media only screen and (min-width: 1279px) {
+
+    /*Disables the navbar made for mobile*/
+     .hamburger-navbar {
+         display: none;
+     }
+
+     .portfolio-image {
+         width: 40%;
+         display: block;
+         margin: auto;
+     }
+
+     .container-about {
+         display: block;
+         margin: auto;
+     }
+
+     .header-about {
+         margin-left: 80%;
+         margin-top: 5%;
+     }
+
+
+
+     .sketch-shb {
+         height: 20vw;
+         margin-left: 10%;
+     }
+
+
+     .about-text-div {
+         position: absolute;
+         margin-left: 40%;
+         width: 50%;
+     }
+
+     .container-about {
+         position: relative;
+         margin-bottom: 40%;
+     }
+
+     .about-me-text {
+         font-size: 1rem;
+     }
+
+     .about-2-container {
+         height: 40%;
+     }
+
+     .img-bergen {
+         width: 25vw;
+     }
+
+     .text-about-me-2 {
+         width: 40%;
+     }
+
+     /*Projects page*/
+
+
+     #project-header {
+         margin-left: 88%;
+         margin-top: 5%;
+         margin-bottom: 10%;
+     }
+
+
+     .div-github-logo {
+         margin-top: 2%;
+         margin-left: 4%;
+     }
+
+     .project-img {
+         width: 60%;
+         display: block;
+         margin-left: 10%
+     }
+     .project-2-img {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         margin-bottom: 150px;
+     }
+
+     .contact-header {
+         margin-top: 5%;
+         margin-right: 20%;
+     }
+
+     .contact-icon {
+         margin-left: 30.5%;
+         margin-bottom: 2%;
+     }
+
+ }

@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Steffen Hammelow-Berg</title>
+
+    <link type="text/css" rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css"/>
+    <link type="text/css" rel="stylesheet" href="node_modules/fullpage.js/dist/jquery.fullpage.css"/>
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<div id="fullpage">
+    <div class="section" data-anchor="section-welcome">
+         <div class="container-fluid">
+             <!--This is the navbar for mobile phone-->
+             <div class="navbar hamburger-navbar">
+                 <ul class="nav nav-pills">
+                     <li role="header" class="dropdown">
+                         <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                            aria-expanded="false">
+                             <i class="fa fa-bars fa-4x hamburger-icon" aria-hidden="true"></i>
+                         </a>
+                         <ul class="dropdown-menu">
+                             <div class="dropdown-list">
+                                 <li><a href="#section-about"><div class="list-box"><p>About</p></div></a></li>
+                                 <li><a href="#section-projects"><div class="list-box"><p>Projects</p></div></a></li>
+                                 <li><a href="#section-contact"><div class="list-box"><p>Contact</p></div></a></li>
+                             </div>
+                         </ul>
+                     </li>
+                 </ul>
+             </div>
+         </div>
+
+
+
+    <div class="page1">
+      <div class="container">
+            <div id="portfolio-div"><picture><img class="portfolio-image img-fluid" src="img/Portfolio_background.jpg"
+                                                  alt="Red Portfolio Background"></picture></div>
+      </div>
+    </div>
+    </div>
+
+
+    <div class="section">
+        <div class="slide">
+            <section class="page2" data-anchor="section-about">
+                <div class="container container-about">
+                    <h1 class="header-about">About</h1>
+                        <picture class="image-sketch-div">
+                            <img class="img-fluid sketch-shb" src="img/sketch_mob_portrait_2.png"
+                                 alt="A computer sketched image of Steffen Hammelow-Berg">
+                        </picture>
+
+                    <div class="about-text-div">
+                        <p class="about-me-text">Hi and welcome.
+                            My name is Steffen Hammelow-Berg.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, minima, nam!
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!--slides horizontally to a new page-->
+        <div class="slide">
+            <div class="container about-2-container">
+
+                <div class="img-bergen-div"><img src="img/Bergen_Norway_sketch_land_2.png" alt="A picture of Bergen,
+                     Norway" class="img-bergen"></div>
+                <p class="text-about-me-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus at
+                    cupiditate eum, faceremagnam modi nihil odit, reiciendis repellat, totam unde voluptatibus? Alias
+                    eveniet fuga laboriosammagni, provident qui reprehenderit.
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="slide">
+            <div class="container project-container">
+            <h1 id="project-header">Projects</h1>
+                <div class="project-images">
+                    <picture>
+                        <img src="img/project_1.png" alt="picture of movie project" class="img-thumbnail project-img">
+                    </picture>
+                    <div class="div-github-logo">
+                        <a href="https://github.com/shamste82/my_movies"> <i class="fa fa-github fa-3x github-logo"
+                                                                             aria-hidden="true"></i></a>
+                    </div>
+                 </div>
+            </div>
+        <div class="slide">
+            <img src="http://placehold.it/350x150" class="img-thumbnail img-fluid project-2-img">
+        </div>
+        </div>
+
+    </div>
+
+    <div class="section">
+        <h1 class="contact-header">Contact</h1>
+            <div class="contact-icon"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></div>
+             <div class="section-contact">
+                 <div class="container container-contact-div">
+                     <div class="row div-contact-row">
+                         <div class="col-xs-8 offset-xs-2 col-div-contact">
+                             <form class="form-horizontal" role="form" method="post" action="index.py">
+                                 <div class="form-group">
+                                     <label for="name" class="col-sm-2 control-label">Name</label>
+                                     <div class="col-sm-10 first-last-name">
+                                         <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+                                     </div>
+                                 </div>
+                                 <div class="form-group">
+                                     <label for="email" class="col-sm-2 control-label">Email</label>
+                                     <div class="col-sm-10">
+                                         <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+                                     </div>
+                                 </div>
+                                 <div class="form-group">
+                                     <label for="message" id="message" class="col-sm-2 control-label">Message</label>
+                                     <div class="col-sm-10">
+                                         <textarea class="form-control" row="4" name="message"></textarea>
+                                     </div>
+                                 </div>
+
+                                 <div class="form-group send-button">
+                                    <div class="col-sm-8 col-sm-offset-2">
+                                        <input id="submit" name="submit" type="submit" value="Send" class="btn btn-success send-button">
+                                    </div>
+						         </div>
+                                <div class="form-group">
+                                    <div class="col-sm-10 col-sm-offset-2">
+                                        <!--Will be used to display an alert to the user>-->
+                                    </div>
+						        </div>
+
+                             </form>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+    </div>
+</div>
+
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="node_modules/fullpage.js/dist/jquery.fullpage.min.js"></script>
+
+
+
+</body>
+</html>
