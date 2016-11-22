@@ -39,3 +39,8 @@ gulp.task('browser-sync', function () {
       }
    });
 });
+
+gulp.task('inline', function(){
+   return gulp;
+    .src(['index.html', 'css/*.css', 'js' ])
+});
