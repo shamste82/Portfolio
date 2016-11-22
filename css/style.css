@@ -2,16 +2,16 @@
 
 @font-face {
     font-family: unicaone;
-    src: url('font/unicaone/UnicaOne-Regular.ttf');
+    src: url('../font/unicaone/UnicaOne-Regular.ttf');
 }
 
 @font-face {
     font-family: vollkorn;
-    src: url('font/vollkorn/Vollkorn-Regular.ttf');
+    src: url('../font/vollkorn/Vollkorn-Regular.ttf');
 }
 
 body {
-    background-image: url("../../img/crossword/crossword.png");
+    background-image: url("/img/crossword.png");
 }
 
  a {
