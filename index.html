@@ -56,10 +56,12 @@
                 <div class="container container-about">
                     <h1 class="header-about">About</h1>
                         <picture class="image-sketch-div">
-                            <img class="img-fluid sketch-shb" src="img/original/sketch_portrait.png"
-                                 alt="A computer sketched image of Steffen Hammelow-Berg"
-                            srcset="img/scaled/sketch_portrait_1024px.png 1024w, img/scaled/sketch_portrait_640px.png 640w,
+                            <source srcset="img/scaled/sketch_portrait_1024px.png 1024w, img/scaled/sketch_portrait_640px.png 640w,
                                     img/scaled/sketch_portrait_320px.png 320w">
+                            <source srcset="img/scaled/sketch_portrait_1024px.png 2x,
+                                    img/scaled/sketch_portrait_320px.png 1x">
+                            <img class="img-fluid sketch-shb" src="img/original/sketch_portrait.png"
+                                 alt="A computer sketched image of Steffen Hammelow-Berg">
                         </picture>
 
                     <div class="about-text-div">
