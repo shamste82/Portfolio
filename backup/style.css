@@ -2,16 +2,16 @@
 
 @font-face {
     font-family: unicaone;
-    src: url('../font/unicaone/UnicaOne-Regular.ttf');
+    src: url('font/unicaone/UnicaOne-Regular.ttf');
 }
 
 @font-face {
     font-family: vollkorn;
-    src: url('../font/vollkorn/Vollkorn-Regular.ttf');
+    src: url('font/vollkorn/Vollkorn-Regular.ttf');
 }
 
 body {
-    background-image: url("../img/original/crossword.png");
+    background-image: url("../img/crossword/crossword.png");
 }
 
  a {
@@ -46,11 +46,9 @@ body {
     background-color: #CD4746;
 }
 
- .fa-github {
+.fa-github {
          color: rgb(40, 44, 45);
  }
-
-
 
 @media only screen and (min-width: 320px)
     and (orientation: portrait) {
