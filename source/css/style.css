@@ -578,19 +578,21 @@ body {
      }
 
      .header-about {
-         margin-right: 20%
+         margin-right: 17%
      }
 
 
      .sketch-shb {
-         height: 20vw;
-         margin-top: 25%;
+         height: 20%;
+         margin-top: 15%;
+         margin-left: 20%;
      }
 
 
      .about-text-div {
          display: block;
-         margin-top: 33.33%;
+         margin-top: 27%;
+         position: absolute;
      }
 
      .about-me-text {
@@ -604,7 +606,8 @@ body {
      }
 
      .img-bergen {
-         width: 25vw;
+         width: 15vw;
+         margin-left: 15%;
      }
 
      .text-about-me-2 {
@@ -619,25 +622,24 @@ body {
          height: 100%;
          position: relative;
      }
-     #project-header {
-         margin-left: 80%;
-         margin-top: 10%;
 
+     .project-container {
+         width: 100%;
      }
 
-     .project-images {
-         width: 100%;
-         margin-top: 35%;
+     #project-header {
+         margin-top: 10%;
+         margin-bottom: 5%;
      }
 
      .div-github-logo {
-         margin-left: auto;
-         margin-right: auto;
+         margin-left: 20%;
      }
 
      .project-img {
+         width: 50%;
          display: block;
-         margin: auto;
+         margin: 0 auto 0 auto;
      }
      .project-2-img {
          display: block;
@@ -647,22 +649,22 @@ body {
      }
 
      .contact-header {
-         margin: 5% 15% 0 0;
+         margin: 5% 13% 0 0;
+     }
+
+     .section-contact{
+         width: 100%;
      }
      .contact-icon {
+         display: block;
          margin-top: 20%;
-         margin-left: 32%;
+         margin-left: 31.5%;
      }
 
      .form-group {
-         padding: 20px;
          width: 60%;
          display: block;
          margin: auto;
-     }
-
-     .first-last-name {
-         height: 50px;
 
      }
 
