@@ -23,7 +23,6 @@ body {
     text-decoration:none;
 }
 
-
  a, a:hover, a:active {
      color: white;
  }
@@ -100,7 +99,6 @@ body {
         border: 1px solid rgb(40, 44, 45);
     }
 
-
     .dropdown-menu {
         border:none !important;
     }
@@ -110,7 +108,6 @@ body {
         margin-top: 15px;
         margin-right: 45px;
         font-size: 1.7rem;
-
     }
 
     .portfolio-image {
@@ -161,10 +158,12 @@ body {
     .github-logo {
         margin: 10% 0 30% 5%;
     }
+
     .project-2-img{
         display: block;
         margin: auto;
     }
+
     .contact-header {
         float: right;
         margin: 0 10%;
@@ -173,9 +172,11 @@ body {
     .form-group {
         margin-top: 40px;
     }
+
     .first-last-name {
         height: 20px;
     }
+
     .contact-icon {
         display: block;
         margin: 30% 0 0% 25%;
@@ -219,6 +220,7 @@ body {
         background-color: #cf4646;
         background-image: none;
     }
+
     .dropdown-menu {
         border:none !important;
     }
@@ -228,7 +230,6 @@ body {
         margin-top: 15px;
         margin-right: 45px;
         font-size: 1.7rem;
-
     }
 
     .portfolio-image {
@@ -252,8 +253,6 @@ body {
         margin-top: 15%;
         position: absolute;
     }
-
-
 
     .about-text-div {
         margin-left: 40%;
@@ -305,7 +304,7 @@ body {
 
     }
 
-    .project-2-img{
+    .project-2-img {
        display: block;
         margin: auto;
     }
@@ -330,9 +329,8 @@ body {
         margin: 0 auto 20% auto;
     }
 
-
-
  }
+
  /*tablet portrait*/
  @media only screen and (min-width: 768px) and (orientation:portrait){
 
@@ -411,8 +409,8 @@ body {
      .send-button {
          margin-top: 10%;
          margin-bottom: 80%;
-
      }
+
      .contact-icon {
          margin-left: 33.333%;
      }
@@ -460,6 +458,7 @@ body {
          margin-top: 45%
 
      }
+
      .about-me-text {
          font-size: 1.2rem;
      }
@@ -502,8 +501,8 @@ body {
      .div-github-logo {
          margin-top: 50px;
          margin-left: 20px;
-
      }
+
      .fa-github {
          color: rgb(40, 44, 45);
      }
@@ -584,7 +583,6 @@ body {
          margin-left: 20%;
      }
 
-
      .about-text-div {
          display: block;
          margin-top: 27%;
@@ -661,11 +659,9 @@ body {
          width: 60%;
          display: block;
          margin: auto;
-
      }
 
      .send-button {
          margin-top: 50px;
      }
-
  }

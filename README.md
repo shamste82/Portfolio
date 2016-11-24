@@ -1,4 +1,4 @@
-# My Portfolio #
+# Portfolio #
 
 ### A Udacity Full Stack Developer Nanodegree Project ###
 
