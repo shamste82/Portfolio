@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: unicaone;
-    src: url('../font/unicaone/UnicaOne-Regular.ttf');
+    src: url('font/unicaone/UnicaOne-Regular.ttf');
 }
 
 @font-face {
     font-family: vollkorn;
-    src: url('../font/vollkorn/Vollkorn-Regular.ttf');
+    src: url('font/vollkorn/Vollkorn-Regular.ttf');
 }
 
 body {
@@ -18,6 +18,10 @@ body {
      font-family: vollkorn;
 
  }
+
+ a, a:hover, a:active, a:visited {
+    text-decoration:none;
+}
 
  div {
     font-family: vollkorn;
@@ -69,13 +73,20 @@ body {
     }
 
     /* Removes the underline of the anchor tag and colors it */
-    .dropdown-list li a {
+    li a {
         text-decoration: none;
         color: rgb(40, 44, 45);
     }
 
+     /* Removes the underline of the anchor tag and colors it */
+    li a {
+        text-decoration: none;
+        color: rgb(40, 44, 45);
+
+    }
+
     /* Sets the background color */
-    .dropdown-list li:hover {
+     .list-box:hover {
         background-color: #cf4646;
         background-image: none;
     }
@@ -85,17 +96,6 @@ body {
     }
 
 
-    .dropdown-list > li a:hover {
-        text-decoration: none !important;
-        color: ghostwhite;
-    }
-
-    .dropdown-list li p {
-        font-size: 1.5rem;
-        margin-left: 30px;
-        height: 120px;
-        width: 200px;
-    }
     .dropdown-menu {
         border:none !important;
     }
@@ -144,16 +144,17 @@ body {
     }
 
     #project-header {
-        margin: 0 0 45% 55%;
+        margin: 0 0 35% 55%;
     }
 
     .project-img {
         display: block;
+        margin: 0 auto 0 auto;
+        width: 90%;
     }
 
     .github-logo {
-        margin-top: 15%;
-        margin-bottom: 30%;
+        margin: 10% 0 30% 5%;
     }
     .project-2-img{
         display: block;
@@ -187,22 +188,19 @@ body {
         display: none;
     }
 
-     .hamburger-navbar {
-     }
-
     .hamburger-icon {
         color: rgb(40, 44, 45);
     }
 
     /* Removes the underline of the anchor tag and colors it */
-    .dropdown-list li a {
+    li a {
         text-decoration: none;
         color: rgb(40, 44, 45);
 
     }
 
     /* Sets the background color */
-    .dropdown-list li:hover {
+     li:hover {
         background-color: #cf4646;
         background-image: none;
     }
@@ -212,16 +210,9 @@ body {
     }
 
 
-    .dropdown-list > li a:hover {
-        text-decoration: none !important;
-        color: ghostwhite;
-    }
-
-    .dropdown-list li p {
-        font-size: 1.5rem;
-        margin-left: 30px;
-        height: 50px;
-        width: 200px;
+    .list-box:hover {
+        background-color: #cf4646;
+        background-image: none;
     }
     .dropdown-menu {
         border:none !important;
@@ -326,7 +317,7 @@ body {
 
     .contact-icon {
         display: block;
-        margin: 15% 0 0% 27%;
+        margin: 15% 0 0 19%;
     }
 
     .col-div-contact {
