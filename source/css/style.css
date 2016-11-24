@@ -23,6 +23,10 @@ body {
     text-decoration:none;
 }
 
+ a, a:hover, a:active {
+     color: white;
+ }
+
  div {
     font-family: vollkorn;
  }
