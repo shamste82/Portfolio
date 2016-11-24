@@ -24,17 +24,15 @@
              <!--This is the navbar for mobile phone-->
              <div class="navbar hamburger-navbar">
                  <ul class="nav nav-pills">
-                     <li role="header" class="dropdown">
+                     <li class="dropdown">
                          <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
                             aria-expanded="false">
                              <i class="fa fa-bars fa-4x hamburger-icon" aria-hidden="true"></i>
                          </a>
                          <ul class="dropdown-menu">
-                             <div class="dropdown-list">
                                  <li><a href="#section-about"><div class="list-box"><p>About</p></div></a></li>
                                  <li><a href="#section-projects"><div class="list-box"><p>Projects</p></div></a></li>
                                  <li><a href="#section-contact"><div class="list-box"><p>Contact</p></div></a></li>
-                             </div>
                          </ul>
                      </li>
                  </ul>
@@ -56,10 +54,10 @@
         <div class="slide">
             <section class="page2" data-anchor="section-about">
                 <div class="container container-about">
-                    <h1 class="header-about">About</h1>
+                    <h2 class="header-about">About</h2>
                     <picture class="image-sketch-div">
                         <source srcset="img/scaled_compressed/sketch_portrait_1024px_c.png 1024w, img/scaled_compressed/sketch_portrait_640px_c.png 640w,
-                                    img/scaled_compressed/sketch_portrait_320px_c.png 320w">
+                                    img/scaled_compressed/sketch_portrait_320px_c.png 320w" sizes="50vw" media="screen" >
                         <source srcset="img/scaled/sketch_portrait_1024px.png 2x,
                                     img/scaled_compressed/sketch_portrait_1024px.png 1x">
                         <img class="img-fluid sketch-shb" src="img/original/sketch_portrait.png"
@@ -83,7 +81,7 @@
                 <div class="img-bergen-div">
                     <picture>
                         <source srcset="img/scaled_compressed/Bergen_Norway_1024px_c.png 1024w, img/scaled_compressed/Bergen_Norway_640px_c.png 640w,
-                        img/scaled_compressed/Bergen_Norway_320px_C.png 320w">
+                        img/scaled_compressed/Bergen_Norway_320px_C.png 320w" sizes="50vw" media="screen">
                         <source srcset="img/scaled/Bergen_Norway_1024px.png 2x, img/scaled_compressed/Bergen_Norway_1024px_c.png 1x">
                         <img src="img/original/Bergen_Norway_sketch_land_2.png" alt="A picture of Bergen, Norway" class="img-bergen">
                     </picture>
@@ -104,7 +102,7 @@
                     <div class="project-images">
                         <picture>
                             <source srcset="img/scaled_compressed/project_1_1024px_c.png 1024w, img/scaled_compressed/project_1_640_px_c.png 640w,
-                              img/scaled_compressed/project_1_320_px_c.png 320w">
+                              img/scaled_compressed/project_1_320_px_c.png 320w" sizes="50vw" media="screen">
                             <source srcset="img/scaled/project_1_1024px.png 2x, img/scaled_compressed/project_1_1024px_c.png 1x">
                             <img src="img/original/project_1.png" alt="picture of movie project" class="img-thumbnail project-img">
                         </picture>
@@ -116,7 +114,7 @@
                 </div>
             </div>
         <div class="slide">
-            <img src="http://placehold.it/350x150" class="img-thumbnail img-fluid project-2-img">
+            <img src="http://placehold.it/350x150" class="img-thumbnail img-fluid project-2-img" alt="placeholder image">
         </div>
         </div>
 
@@ -131,7 +129,7 @@
                  <div class="container-contact-div">
                      <div class="row div-contact-row">
                          <div class="col-xs-8 offset-xs-2 col-div-contact">
-                             <form class="form-horizontal" role="form" method="post" action="index.py">
+                             <form class="form-horizontal" method="post" action="index.py">
                                  <div class="form-group">
                                      <label for="name" class="col-sm-2 control-label">Name</label>
                                      <div class="col-sm-10 first-last-name">
@@ -145,9 +143,9 @@
                                      </div>
                                  </div>
                                  <div class="form-group">
-                                     <label for="message" id="message" class="col-sm-2 control-label">Message</label>
+                                     <label id="message" class="col-sm-2 control-label">Message</label>
                                      <div class="col-sm-10">
-                                         <textarea class="form-control" row="4" name="message"></textarea>
+                                         <textarea class="form-control" name="message"></textarea>
                                      </div>
                                  </div>
 

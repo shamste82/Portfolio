@@ -19,6 +19,10 @@ body {
 
  }
 
+ a, a:hover, a:active, a:visited {
+    text-decoration:none;
+}
+
  div {
     font-family: vollkorn;
  }
@@ -69,7 +73,7 @@ body {
     }
 
     /* Removes the underline of the anchor tag and colors it */
-    .dropdown-list li a {
+    li a {
         text-decoration: none;
         color: rgb(40, 44, 45);
     }
