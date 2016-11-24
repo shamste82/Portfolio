@@ -36,7 +36,7 @@ body {
 
  }
 
- p{
+ p {
      font-size: 1.3rem;
  }
 
@@ -304,7 +304,7 @@ body {
 
     }
 
-    .project-2-img{
+    .project-2-img {
        display: block;
         margin: auto;
     }
@@ -501,8 +501,8 @@ body {
      .div-github-logo {
          margin-top: 50px;
          margin-left: 20px;
-
      }
+
      .fa-github {
          color: rgb(40, 44, 45);
      }
