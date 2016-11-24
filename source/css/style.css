@@ -33,16 +33,16 @@ body {
 
  h1 {
      font-family: unicaone;
-
  }
 
  p {
      font-size: 1.3rem;
  }
 
+  /*changes the color of the horizontal scroll arrows used in desktop version*/
+
  .fp-controlArrow.fp-next {
     border-color: transparent transparent transparent rgb(40, 44, 45);
-
  }
 
  .fp-controlArrow.fp-prev {
@@ -55,7 +55,7 @@ body {
 }
 
  .fa-github {
-         color: rgb(40, 44, 45);
+     color: rgb(40, 44, 45);
  }
 
 
@@ -86,7 +86,6 @@ body {
     li a {
         text-decoration: none;
         color: rgb(40, 44, 45);
-
     }
 
     /* Sets the background color */
@@ -274,6 +273,7 @@ body {
     .img-bergen-div {
         margin-right: 20%;
     }
+
     .img-bergen {
         width: 35vw;
         margin-bottom: 1%;
@@ -382,7 +382,6 @@ body {
      }
 
      /*Projects page*/
-
      #project-header {
          margin: 5% 0 15% 75%;
      }

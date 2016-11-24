@@ -4,7 +4,7 @@
 
 A portfolio site created for my future projects.
 
-[Porfolio site](http://www.steffenhb.com "Portfolio site")
+[Porfolio](http://www.steffenhb.com "Portfolio site")
 
 
 
